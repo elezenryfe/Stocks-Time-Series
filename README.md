@@ -1,4 +1,6 @@
 # Stocks-Time-Series
+**Data source: /uk.finance.yahoo.com**
+
 Data evaluation and pre-processing of four stocks with their time series data
 
 Following are the 4 time series used from the Yahoo! Finance website:
