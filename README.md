@@ -7,7 +7,7 @@ Following are the 4 time series used from the Yahoo! Finance website:
 3. Iconic Labs Plc (ICON.L)
 4. Lloyds Banking Group Plc (LLOY.L)
 
-#Description
+# Description
 Each of the four time series have 23 missing data points, besides weekends. Since all
 four stocks are primarily based in the UK, all 23 of these dates fall on a holiday such as:
 New Year’s, Christmas, Good Friday, Easter Monday, Early May Bank Holiday, Late May
