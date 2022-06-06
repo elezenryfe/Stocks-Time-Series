@@ -57,3 +57,29 @@ This while loop breaks if the totalErr is equal to or greater than the tolerance
 The outer loop will update the totalErr to some random high number again, and the loop is
 iterated. The outer loop also breaks when the totalErr is equal to or greater than the
 tolerance.
+
+Time series “LLOY” has been chosen as the target g(t) and “ICON”, “BOIL” and “PREM” as
+supporting data d1(t), d2(t), d3(t).
+
+All four time series are integrated into one dataframe called “final_data”.
+
+The date has been converted into a numerical format.
+In order to predict the next day forecast, a new dataframe “tested” is assigned the values of
+the log returns of g(t), such that g(t+1) = g(t). The first row is assigned “NaN” as there is not
+g(t-1) for the first log return of g(t).
+
+The mean squared error for the next day forecast is 1.8477.
+
+The data of 2018 has been trained for the supporting data d1(t), d2(t) and d3(t). The values
+for 2019 are predicted using the linear regression model. And the trained 2018 data is also
+used to predict the 2020 data using the linear regression model.
+
+The mean squared error for 2019 testing data is 0.564.
+
+The mean squared error of 2020 testing data is 2.1668.
+
+The test score for 2019 testing is -0.0248
+
+The test score for 2020 testing is 0.01346
+
+The train score for 2018 training is 0.003244
